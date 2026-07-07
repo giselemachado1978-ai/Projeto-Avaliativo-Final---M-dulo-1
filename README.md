@@ -7,7 +7,7 @@ Estruturar um pipeline preditivo completo aplicado à Indústria 4.0.
 Um parque fabril monitorado por sensores necessita prever quebras mecânicas nos equipamentos para evitar paradas na linha de produção. A variável alvo do projeto é binária: Falha = 1 (quando há uma avaria detectada) e Falha = 0 (funcionamento normal).
 
 # Base de Dados (.csv): 
-https://drive.google.com/drive/folders/1_QcYvhSoJO6SxOJz8Om6gaVuWyPZKdMs?usp=sharing
+https://drive.google.com/drive/folders/1jFsiBEz53Gt1jhvJv90YdCr0nXNA8mlj?usp=sharing
 
 # Etapas:
 # Fase 1: Análise Exploratória (EDA)
