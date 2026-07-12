@@ -24,13 +24,13 @@ Criar nova coluna numérica por meio de operação matemática entre colunas exi
 Sugestão (Manutenção): potencia = velocidade_rotacao_rpm * torque_nm
 
 # Fase 4: Divisão e Balanceamento dos Dados
-Separe as variáveis preditoras (X) da variável alvo (y).
-Divida os dados em treino (80%) e teste (20%) utilizando o parâmetro stratify=y.
-Aplique uma técnica de reamostragem (SMOTE ou Random Under Sampling) exclusivamente nos dados de treino para evitar o vazamento de dados (Data Leakage).
+Separando as variáveis preditoras (X) da variável alvo (y).
+Dividir os dados em treino (80%) e teste (20%) utilizando o parâmetro stratify=y.
+Aplicar uma técnica de reamostragem (SMOTE ou Random Under Sampling) exclusivamente nos dados de treino para evitar o vazamento de dados (Data Leakage).
 
 # Fase 5: Escalonamento de Variáveis (StandardScaler)
-Aplique o StandardScaler apenas nas variáveis contínuas destinadas ao modelo KNN (utilizando fit_transform no treino e transform no teste).
-Mantenha os dados da Árvore de Decisão sem escalonamento, justificando no código o motivo de o algoritmo ser imune à escala dos atributos.
+Aplicando o StandardScaler apenas nas variáveis contínuas destinadas ao modelo KNN (utilizando fit_transform no treino e transform no teste).
+Manter os dados da Árvore de Decisão sem escalonamento, justificando no código o motivo de o algoritmo ser imune à escala dos atributos.
 
 # Fase 6: Ajuste de Parâmetros e Combate ao Overfitting
 No KNN: Treine o modelo variando o parâmetro n_neighbors (K) por no mínimo 3 valores ímpares (ex: K = 3, 5, 7) e registre a acurácia no treino e no teste.
