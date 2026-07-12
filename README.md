@@ -20,9 +20,8 @@ Identifique dados ausentes e aplique a imputação por Média ou Mediana, justif
 Gere gráficos do tipo boxplot para identificar a presença de outliers nas variáveis explicativas.
 
 # Fase 3: Feature Engineering
-Crie uma nova coluna numérica por meio de operação matemática entre colunas existentes, tratando os valores nulos previamente.
+Criar nova coluna numérica por meio de operação matemática entre colunas existentes.
 Sugestão (Manutenção): potencia = velocidade_rotacao_rpm * torque_nm
-(É permitida a criação de outra combinação matemática, desde que explicada no vídeo e documentada no notebook).
 
 # Fase 4: Divisão e Balanceamento dos Dados
 Separe as variáveis preditoras (X) da variável alvo (y).
