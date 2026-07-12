@@ -17,7 +17,7 @@ manutencao_preditiva.csv
 # Fase 2: Limpeza e Tratamento de Dados (Data Prep)
 Identifique e remova as linhas duplicadas.
 Identifique dados ausentes e aplique a imputação por Média ou Mediana, justificando textualmente a escolha com base na distribuição dos dados.
-Gere gráficos do tipo boxplot para identificar a presença de outliers nas variáveis explicativas.
+Gerar gráficos do tipo boxplot para identificar a presença de outliers nas variáveis explicativas.
 
 # Fase 3: Feature Engineering
 Criar nova coluna numérica por meio de operação matemática entre colunas existentes.
