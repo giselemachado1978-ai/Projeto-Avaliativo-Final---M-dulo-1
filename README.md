@@ -9,6 +9,9 @@ Um parque fabril monitorado por sensores necessita prever quebras mecânicas nos
 # Base de Dados (.csv): 
 manutencao_preditiva.csv
 
+# Linguagem:
+VSCode
+
 # Etapas:
 # Fase 1: Análise Exploratória (EDA)
 1. Apresenta as dimensões do dataset (número de linhas e colunas), os tipos de dados das variáveis e o resumo estatístico descritivo das colunas numéricas via método “.describe()”.
@@ -28,6 +31,8 @@ manutencao_preditiva.csv
 2. Dividir os dados em treino (80%) e teste (20%) utilizando o parâmetro stratify=y.
 3. Aplicar uma técnica de reamostragem (SMOTE ou Random Under Sampling) exclusivamente nos dados de treino para evitar o vazamento de dados (Data Leakage).
 
+   ## SMOTE escolhida pois um dos objetivos do projeto é analisar desbalanceamento e overfitting e neste caso, esta é a tecnica mais apropriada.
+   
 # Fase 5: Escalonamento de Variáveis (StandardScaler)
 1. Aplicar o StandardScaler apenas nas variáveis contínuas destinadas ao modelo KNN (utilizando fit_transform no treino e transform no teste).
 2. Aplicar Árvore de Decisão sem escalonamento, justificando no código o motivo de o algoritmo ser imune à escala dos atributos.
@@ -39,4 +44,4 @@ manutencao_preditiva.csv
 
 # Fase 7: Avaliação da Acurácia e Veredito Final
 1. Calcular e exibir a acurácia final do melhor KNN e da melhor árvore de decisão utilizando os dados de teste.
-2. Comparar as taxas de acerto e escrever a conclusão justificando qual modelo apresentou o desempenho superior no teste e deve ser adotadopela empresa .
+2. Comparar as taxas de acerto e escrever uma conclusão justificando qual modelo apresentou o desempenho superior no teste e deve ser adotadopela empresa .
