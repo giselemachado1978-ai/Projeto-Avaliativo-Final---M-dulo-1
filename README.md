@@ -31,7 +31,7 @@ VSCode
 2. Dividir os dados em treino (80%) e teste (20%) utilizando o parâmetro stratify=y.
 3. Aplicar uma técnica de reamostragem (SMOTE ou Random Under Sampling) exclusivamente nos dados de treino para evitar o vazamento de dados (Data Leakage).
 
-   ## SMOTE escolhida pois um dos objetivos do projeto é analisar desbalanceamento e overfitting e neste caso, esta é a tecnica mais apropriada.
+   ## SMOTE escolhida uma vez que a base de dados é relativamente pequena e a criação de amostras nao causa lentidao no processo. As literaturas também indicam para controle de overfitting.
    
 # Fase 5: Escalonamento de Variáveis (StandardScaler)
 1. Aplicar o StandardScaler apenas nas variáveis contínuas destinadas ao modelo KNN (utilizando fit_transform no treino e transform no teste).
