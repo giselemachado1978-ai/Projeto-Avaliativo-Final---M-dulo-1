@@ -1,0 +1,9 @@
+VS Code
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
+ipykernel 
+notebook jupyter
+imblearn
