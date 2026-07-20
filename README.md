@@ -45,3 +45,7 @@ VSCode
 # Fase 7: Avaliação da Acurácia e Veredito Final
 1. Calcular e exibir a acurácia final do melhor KNN e da melhor árvore de decisão utilizando os dados de teste.
 2. Comparar as taxas de acerto e escrever uma conclusão justificando qual modelo apresentou o desempenho superior no teste e deve ser adotadopela empresa .
+
+   ## LINK VIDEO:
+   https://drive.google.com/file/d/1XJm3FIkVHZs5G3WDZ5ELLbl4IugdwYiY/view?usp=sharing
+   
